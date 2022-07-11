@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@500&display=swap');
+        body{
+            font-family: 'Roboto';
+            background-image: url('https://static.significados.com.br/foto/bandeira-da-russia-significados.jpg');
+        }
+        h1 {
+            border: 12px solid transparent;
+            padding: 10px;
+            text-align: center;
+            border-image: url('borda.png') 15 repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda personalizada</h1>
+    <h2>Como eu fiz a borda</h2>
+    <p>Bem primeiro eu coloquei h1{
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; border:12px solid transparent;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; padding: 10px;}
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; text-aling:center;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; border-image: url(<a href="borda.png" target="_blank" rel="external">'borda.png'</a>)</p>    
+    <h2>Para o fundo da página e a fonte</h2>
+    <p>Eu coloquei:
+        &nbsp;&nbsp;&nbsp;&nbsp;<br>@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@500&display=swap');
+        <br>
+        body{
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;font-family: 'Roboto';
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;background-image: url(<a href="https://static.significados.com.br/foto/bandeira-da-russia-significados.jpg" target="_blank" rel="external">'https://static.significados.com.br/foto/bandeira-da-russia-significados.jpg'</a>);
+            <br>
+        }
+        </p>
+    </body>
+</html>

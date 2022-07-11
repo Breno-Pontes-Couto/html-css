@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+}
+.primeiroh1{
+    text-align: center;
+    color: black;
+    background-color: #ffff00;
+}
+.segundoh1{
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+.terceiroh1{
+    text-align: center;
+    color: black;
+    background-color: beige; 
+}
+.básico{
+    color: rgb(21, 253, 0);
+}
+.intermediário{
+    color: yellow;
+}
+.avançado{
+    color: red;
+}
+h2{
+color: rgb(155, 12, 12);
+}
+
+p{
+    text-align: justify;
+
+}

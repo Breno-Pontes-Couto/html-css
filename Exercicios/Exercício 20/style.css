@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to left, orange,rgba(216, 190, 43, 0.904),purple);
+}
+div{
+    display: inline-block;
+    background-color:blue;
+    border: 1px solid rgb(255, 145, 0);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+
+}
+#div1:hover{
+    background-color:green;
+    
+}
+.div2:hover{
+    background-color: brown;
+}
+.div3:hover{
+    background-color:red;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.h1:hover{
+    color: rgb(0, 247, 255);
+}
+a{
+    border-width: 5px;
+    border-style:groove;
+    border-color: green;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
